@@ -1,0 +1,297 @@
+body{
+	font-family:rubik, arial,sans-serif;
+	margin: 0;
+	width:100%;
+}
+/*Header of the website*/
+header{
+	height: 50px;
+	text-decoration: none;
+	margin: 30px;
+	color: black;
+	margin-right:200px;
+}
+h1{
+	float: left;
+	text-transform: uppercase;
+	margin-left: 200px;
+}
+
+.second, a{
+	text-decoration: none;
+	line-height: 50px;
+}
+
+#first{
+	float: right;
+	margin: 10px;
+	word-spacing: 40px;
+}
+
+#second{
+	float: right;
+	margin: 10px 10px 10px 80px;
+}
+
+a{
+	color: black;
+}
+
+a:hover{color: blue;}
+
+/*main body*/
+.container{
+	background-image: url("../images/smile.jpg");
+	background-repeat: no-repeat;
+	padding:80px;
+	background-attachment: fixed;
+	text-align: center;
+	color: white;
+}
+
+h2{
+	font-size: 50px;
+}
+
+#inputs{
+	background-color: white;
+	font-size: 30px;
+	width: 50%;
+	margin:0 auto;
+}
+
+input, select{
+	margin: 20px 20px 30px 0px;
+	font-size: 20px;
+	border: none;
+}
+
+#z{ background-color:#11CBD7;
+	color: white;
+	padding: 10px 10px 10px 10px;
+	border-radius: 10px;
+}
+
+#z:hover{
+	background-color: white;
+	color: black;
+	border: solid #11CBD7;
+}
+
+/*welcome to university*/
+.University{
+	margin-left: 200px;
+}
+
+h3{ 
+	padding: 30px;
+	color: #11CBD7;
+	font-size:40px;
+	margin-bottom: 50px;
+}
+
+#para{
+	margin:100px 100px 100px 0;
+	float: left;
+	width:500px;
+	text-align: justify;
+	color: gray;
+	font-size: 20px;
+}
+
+#pic{
+	margin:100px 100px 100px;
+	float: left;
+	width:500px;
+}
+
+
+.sub{
+	clear: both;
+	width: 100%;
+	margin-left:200px;	
+}
+
+#power{
+	width:400px;
+	float: left;
+}
+
+/*Education is Life*/
+.Education{
+	clear: both;
+	margin-left:200px;
+}
+
+#girl{
+	float: left;
+	padding: 100px 200px 0 0 ;
+	clear: both;
+}
+
+#tab{
+	margin-left: 100px;
+	text-align: center;		
+}
+
+span{
+	color:#11CBD7;
+	font-size: 20px;
+	display: inline-block;
+	word-spacing: 50px;
+}
+
+td{
+	line-height:20px; 
+	padding:20px;
+}
+
+/*Popular Courses*/
+.course{
+	clear: both;
+	margin-left:50px;
+	text-align: center;
+
+}
+
+#par{
+	color: gray;
+	font-size: 20px;
+}
+
+#pow{
+	width:3250px;
+	margin:10px 100px 80px 0px;
+	float: left;
+	box-shadow: 50px;
+	clear: both;
+}
+
+#lin{
+	color: gray;
+	display: inline-block;
+	padding:40px;
+}
+
+#line{
+	text-decoration: line-through;
+	color: gray;
+	display: inline-block;
+	padding:40px;
+}
+
+#x{ 
+	background-color:#11CBD7;
+	color: white;
+	border-radius: 10px;
+	
+}
+
+/*Teachers*/
+.te{
+	margin-left: 150px;
+}
+
+#ower{
+	width: 400px;
+	float: left;
+	margin: 30px;
+	margin-bottom: 100px;
+}
+
+/*Blog*/
+
+#gir{
+	width: 800px;
+	padding-top: 10px;
+	margin: 10px 10px 0 50px;
+	margin-bottom: 0;
+	float: left;
+	clear: both;
+}
+
+#pa{
+	color: gray;
+	font-size: 15px;
+	float: left;
+	margin: 10px 10px 0 10px;
+	text-align: justify;
+}
+
+#pa:hover{color:#4a4b4d;}
+
+#boy{
+	margin: 10px;
+	float: left;	
+}
+
+#table{
+	height:400px;
+	width: 800px;
+}
+
+/*Create cool websites*/
+h4, h5{
+	font-size: 25px;
+}
+
+.class{
+	clear: both;
+	background-color:#11CBD7; 
+	color: white;
+	padding:20px 20px 50px 200px;
+	margin-top: 200px;
+}
+
+.cla{
+	margin: 10px;
+}
+.clas{
+	float: left;
+	padding-right: 300px;
+}
+
+/*footer*/
+
+#is{
+	width: 400px;
+	float: left;
+	margin: 0px;
+}
+
+h5{
+	font-size:15px;
+}
+
+#lolo{
+	word-spacing: 10px;
+	padding: 20px;
+}
+#isw{
+
+	float: left;
+}
+
+#tap{
+	float: left;
+	width:310px;
+}
+
+#pa1{
+	float: left;
+	padding: 2px;
+	color: gray;
+}
+
+#pa1:hover{color:#4a4b4d;}
+
+#e{
+	padding: 4px;
+	line-height:10px; 
+}
+
+.ii{
+	clear: both;
+	color: gray;
+	margin-top: 50px;
+}
