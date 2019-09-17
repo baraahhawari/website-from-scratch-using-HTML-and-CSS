@@ -1,25 +1,24 @@
 body{
 	font-family:rubik, arial,sans-serif;
 	margin: 0;
-	width:100%;
 }
 /*Header of the website*/
 header{
-	height: 50px;
+	height: 40px;
 	text-decoration: none;
-	margin: 30px;
+	margin: 30px 0;
 	color: black;
-	margin-right:200px;
 }
+
 h1{
-	float: left;
+	display: inline-block;
 	text-transform: uppercase;
-	margin-left: 200px;
+	margin-left: 80px;
 }
 
 .second, a{
 	text-decoration: none;
-	line-height: 50px;
+	line-height: 30px;
 }
 
 #first{
@@ -43,7 +42,8 @@ a:hover{color: blue;}
 .container{
 	background-image: url("../images/smile.jpg");
 	background-repeat: no-repeat;
-	padding:80px;
+	padding:50px;
+	background-size: cover;
 	background-attachment: fixed;
 	text-align: center;
 	color: white;
@@ -56,7 +56,7 @@ h2{
 #inputs{
 	background-color: white;
 	font-size: 30px;
-	width: 50%;
+	width: 70%;
 	margin:0 auto;
 }
 
@@ -79,10 +79,6 @@ input, select{
 }
 
 /*welcome to university*/
-.University{
-	margin-left: 200px;
-}
-
 h3{ 
 	padding: 30px;
 	color: #11CBD7;
@@ -91,7 +87,7 @@ h3{
 }
 
 #para{
-	margin:100px 100px 100px 0;
+	margin:30px;
 	float: left;
 	width:500px;
 	text-align: justify;
@@ -100,7 +96,7 @@ h3{
 }
 
 #pic{
-	margin:100px 100px 100px;
+	margin:30px;
 	float: left;
 	width:500px;
 }
@@ -108,29 +104,31 @@ h3{
 
 .sub{
 	clear: both;
-	width: 100%;
-	margin-left:200px;	
+	width: 100%;	
 }
 
 #power{
-	width:400px;
+	width:300px;
 	float: left;
+	text-align: center;
+	padding: 15px;
 }
 
 /*Education is Life*/
-.Education{
-	clear: both;
-	margin-left:200px;
+#pow{
+	width:300px;
+	float: left;
+	text-align: center;
+	margin: 10px;
 }
 
 #girl{
 	float: left;
-	padding: 100px 200px 0 0 ;
+	padding: 50px 50px 0 0 ;
 	clear: both;
 }
 
 #tab{
-	margin-left: 100px;
 	text-align: center;		
 }
 
@@ -151,6 +149,9 @@ td{
 	clear: both;
 	margin-left:50px;
 	text-align: center;
+}
+.sub{
+	clear: both;
 
 }
 
@@ -159,13 +160,6 @@ td{
 	font-size: 20px;
 }
 
-#pow{
-	width:3250px;
-	margin:10px 100px 80px 0px;
-	float: left;
-	box-shadow: 50px;
-	clear: both;
-}
 
 #lin{
 	color: gray;
@@ -177,7 +171,7 @@ td{
 	text-decoration: line-through;
 	color: gray;
 	display: inline-block;
-	padding:40px;
+	padding:40px 20px;
 }
 
 #x{ 
@@ -188,21 +182,17 @@ td{
 }
 
 /*Teachers*/
-.te{
-	margin-left: 150px;
-}
 
 #ower{
-	width: 400px;
 	float: left;
-	margin: 30px;
+	margin: 20px;
+	padding: 30px;
 	margin-bottom: 100px;
 }
 
 /*Blog*/
 
 #gir{
-	width: 800px;
 	padding-top: 10px;
 	margin: 10px 10px 0 50px;
 	margin-bottom: 0;
